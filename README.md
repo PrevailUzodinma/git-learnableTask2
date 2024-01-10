@@ -17,3 +17,9 @@ Other repo-hosting platforms asides **GitHub** include
 2. BitBucket
 3. Gitea
 
+### Difference between git fetch and git pull
+| S/N | git fetch | git pull |
+| -- | ------ | ------ |
+| 1. | It retrieves changes from the remote repository but does not automatically merge them to the local working branch | It automatically retrieves changes from the remote repository and merges them into your local working branch.|
+| 2. | It fetches only, you will have to merge the changes separately to effect changes | It is a combination of fetching and merging |
+
