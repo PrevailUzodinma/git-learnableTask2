@@ -25,6 +25,9 @@ Other repo-hosting platforms asides **GitHub** include
 
 ### git rebase
 **git rebase** is a command used in Git to modify the commit history of a branch. Unlike *git merge*, which combines the changes from one branch into another, **git rebase** integrates the changes by moving or combining a sequence of commits to a new base commit. This results in a linear and cleaner commit history. It is like reorganizing the commits of a branch.
-The commsnd for it is **"git rebase"**.
+The command for it is **"git rebase"**.
 
- 
+### git cherry-pick
+ Imagine having two gardens (branches) with different flowers (commits) in them. **git cherry-pick** is a command that enables you pick a specific flower (commit) from another garden and plant into yours.
+ It helps you bring over specific changes without having to copy the entire set of changes from one place to another.
+ The command for it is **"git cherry-pick"**.
